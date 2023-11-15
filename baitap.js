@@ -57,12 +57,76 @@
 //Viết chương trình JavaScript để kiểm tra xem một số nguyên có phải là số Palindrome (số đối xứng) hay không.
 
 
-const number = 232;
-const tailNumber = number %100
-const headNumber = ((number - number % 100) / 100)
-if(tailNumber === headNumber){
-    console.log("so nguyen doi xung")
-}
-else {
-    console.log("so nguyen khong doi xung")
-}
+// const number = 232;
+// const tailNumber = number % 10
+// const headNumber = ((number - number % 100) / 100)
+// if(tailNumber == headNumber){
+//     console.log("so nguyen doi xung")
+// }
+// else {
+//     console.log("so nguyen khong doi xung")
+// }
+
+
+
+// 2. Tạo một biến age và kiểm tra xem age có lớn hơn hoặc bằng 18 không. Nếu có, in ra "Bạn đã đủ tuổi"; ngược lại, in ra "Bạn chưa đủ tuổi".
+
+// const age = 20
+// if(age >= 18){
+//     console.log("Bạn đã đủ tuổi")
+// }
+// else {
+//     console.log("Bạn chưa đủ tuổi")
+// }
+
+// 4. Tạo một biến score và kiểm tra điểm số của học sinh theo hệ điểm 10. Nếu score lớn hơn hoặc bằng 5, in ra "Đậu"; ngược lại, in ra "Trượt".
+
+// const score = 8
+// if(score >= 5){
+//     console.log("Đậu")
+// }
+// else {
+//     console.log("Trượt")
+// }
+
+// 5. Viết chương trình JavaScript để kiểm tra xem một số nguyên có phải là số chẵn hay không. Nếu là số chẵn, in ra "Số chẵn"; ngược lại, in ra "Số lẻ".
+
+
+// const a = 5
+// if(a % 2 == 0 ){
+//     console.log(a,"là số chẵn")
+// }
+// else {
+//     console.log(a,"là số lẻ")
+// }
+
+
+// 11. Tạo một biến hour và kiểm tra xem hour có phải là giờ hợp lệ (0-23) không.
+
+// const hour = 19
+// if(0 <= hour && hour <= 23){
+//     console.log("Giờ hợp lệ")
+// }
+// else {
+//     console.log("Giờ không hợp lệ")
+// }
+
+// 10. Viết chương trình JavaScript để tính lãi suất đơn giản cho một số tiền gửi dựa trên số tiền, lãi suất và thời gian gửi.
+//  Số tiền lãi = Số tiền gửi x lãi suất (%năm) x số ngày gửi/365
+
+
+// const sotiengui = 5000000000
+// const laisuat = 5.3
+// const songaygui = 365 
+// console.log(sotiengui * (5.3/100) * (365/365))
+
+//13. Tạo một biến word và kiểm tra xem word có phải là từ viết tắt (ví dụ: "ASAP", "LOL") không.
+
+// const lienminhhuyenthoai = "LOL"
+// const word = "LOL"
+// if (word === lienminhhuyenthoai){
+//     console.log(word,"là từ viết tắt")
+// }
+// else {
+//     console.log(word,"không là từ viết tắt")
+// }
