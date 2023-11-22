@@ -81,7 +81,7 @@
 // 10. Tạo một biến year và sử dụng vòng lặp while để in ra tất cả các năm nhuận từ year đến year + 50.
 
 // let year=2000
-// while(year >= 2000 && year <= 2050){
+// while(year >= 2000 && year <= year + 50){
 //     if((year % 4 === 0 && year % 100 !== 0) || year % 400 ===0 )
 //     console.log(year)
 //     year ++;
@@ -141,5 +141,28 @@
 // }
 
 // 15. Viết chương trình JavaScript để in ra một hình kim cương bằng dấu sao (*) bằng vòng lặp.
+    // const n=5;
+    // for (let i = 1; i <= n; i++) {
+    //     let sp = "";
+    //     for (let j = 1; j <= n - i; j++) {
+    //         sp += " ";
+    //     }
+    //     for (let j = 1; j <= 2 * i - 1; j++) {
+    //         if (i <= (n + 1) / 2) {
+    //             sp += " ";
+    //         } else sp += "*";
+    //     }
+    //     console.log(sp);
+    // }
+    // for (let i = 1; i <= n; i++) {
+    //     let kt = "";
+    //     for (let j = 1; j <= i; j++) {
+    //         kt += " ";
+    //     }
+    //     for (let j = 1; j < 2 * n - 2 * i; j++) {
+    //         kt += "*";
+    //     }
+    //     console.log(kt);
+    // }
 
 
