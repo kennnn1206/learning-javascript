@@ -297,7 +297,7 @@
 // 11. Viết chương trình JavaScript để đảo ngược một chuỗi sử dụng mảng và vòng lặp.
 
 // const kitu="Tuannn"
-// let newarr=[]
+// let newarr=""
 // for(let i=kitu.length-1;i>=0;i--){
 //     newarr+=kitu[i]
 // }
