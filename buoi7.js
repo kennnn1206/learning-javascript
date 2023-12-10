@@ -232,4 +232,6 @@
     //     return mangdachia;
     // }
     // console.log(chiaMang(['a', 'b', 'c', 'd'],2));
-    
+
+// 3 Viết chương trình nhận một danh sách các số nguyên làm đầu vào và trả về dãy con tăng dài nhất trong danh sách.
+
