@@ -161,34 +161,34 @@
 // Tạo đối tượng hội viên với thông tin (tên, tuổi, địa chỉ, gói tập, ngày gia nhập,...).
 // Sử dụng mảng và object để quản lý danh sách hội viên, thực hiện chức năng thêm, xóa, sửa thông tin hội viên và tính tổng doanh thu từ gói t
 
-const danhsachhoivien = [{
-    name : "Đạt",
-    age : 18,
-    adress : "Long Biên",
-    goitap : 1000000,
-    date : "12/10/2022",
-},{
-    name : "Mạnh",
-    age : 20,
-    adress : "Đông Anh",
-    goitap : 500000,
-    date : "3/12/2022",
-},
-{
-    name : "Tuấn Anh",
-    age : 22,
-    adress : "Phúc Thọ",
-    goitap : 300000,
-    date : "19/10/2023",
-},
-{
-    name : "Dũng",
-    age : 25,
-    adress : "Cầu Giấy",
-    goitap : 2000000,
-    date : "10/12/2023",
-},
-]
+// const danhsachhoivien = [{
+//     name : "Đạt",
+//     age : 18,
+//     adress : "Long Biên",
+//     goitap : 1000000,
+//     date : "12/10/2022",
+// },{
+//     name : "Mạnh",
+//     age : 20,
+//     adress : "Đông Anh",
+//     goitap : 500000,
+//     date : "3/12/2022",
+// },
+// {
+//     name : "Tuấn Anh",
+//     age : 22,
+//     adress : "Phúc Thọ",
+//     goitap : 300000,
+//     date : "19/10/2023",
+// },
+// {
+//     name : "Dũng",
+//     age : 25,
+//     adress : "Cầu Giấy",
+//     goitap : 2000000,
+//     date : "10/12/2023",
+// },
+// ]
 // function themHoiVien(ten, tuoi, diaChi, goiTap, ngayGiaNhap) {
 //     let hoiVienMoi = {
 //         ten: ten,
